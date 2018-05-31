@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Npoi.Samples.CreateNewSpreadsheet</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>Npoi.Samples.CreateNewSpreadsheet</PackageId>
+    <RuntimeFrameworkVersion>2.0.0</RuntimeFrameworkVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\NPOI.OOXML\NPOI.OOXML.csproj" />
+    <ProjectReference Include="..\..\src\NPOI.OpenXml4Net\NPOI.OpenXml4Net.csproj" />
+    <ProjectReference Include="..\..\src\NPOI.OpenXmlFormats\NPOI.OpenXmlFormats.csproj" />
+    <ProjectReference Include="..\..\src\NPOI\NPOI.csproj" />
+  </ItemGroup>
+
+</Project>
